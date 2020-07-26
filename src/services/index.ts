@@ -1,1 +1,1 @@
-// single export for all services
+export { default } from "./jokes";
