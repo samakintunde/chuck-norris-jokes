@@ -1,1 +1,1 @@
-// single export for all application routes
+export { default } from "./Home";
