@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 type LinkCardProps = {
-  to: string;
+  to: string | Object;
 };
 
 const LinkCard: React.FC<LinkCardProps> = (props) => {
