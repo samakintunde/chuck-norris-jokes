@@ -1,9 +1,9 @@
-const config = {
+module.exports = {
   purge: [
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.tsx",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
     "public/**/*.html",
   ],
   theme: {
@@ -27,5 +27,3 @@ const config = {
   variants: {},
   plugins: [],
 };
-
-module.exports = config;
