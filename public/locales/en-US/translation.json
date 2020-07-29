@@ -1,0 +1,44 @@
+{
+  "languages": {
+    "english": "English",
+    "french": "French",
+    "arabic": "Arabic"
+  },
+  "title": "Chuck Norris Facts Finder",
+  "footer": {
+    "credits": "Built by"
+  },
+  "home": {
+    "actions": {
+      "by_category": "Search by Category",
+      "feeling_lucky": "I'm feeling lucky",
+      "or": "or"
+    }
+  },
+  "search": {
+    "headings": {
+      "result": "result",
+      "results": "results",
+      "fact": "fact",
+      "facts": "facts"
+    },
+    "categories": {
+      "animal": "animal",
+      "career": "career",
+      "celebrity": "celebrity",
+      "dev": "dev",
+      "explicit": "explicit",
+      "fashion": "fashion",
+      "food": "food",
+      "history": "history",
+      "money": "money",
+      "movie": "movie",
+      "music": "music",
+      "political": "political",
+      "religion": "religion",
+      "science": "science",
+      "sport": "sport",
+      "travel": "travel"
+    }
+  }
+}
