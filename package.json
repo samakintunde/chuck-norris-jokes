@@ -32,6 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "cypress:open": "yarn run cypress open",
+    "cypress:open:dev": "yarn run cypress open --config-file cypress.dev.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
