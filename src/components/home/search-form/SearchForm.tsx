@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Button from "../../common/button";
 import { FiArrowRight } from "react-icons/fi";
-import factsService from "../../../services";
-import { useHistory } from "react-router-dom";
 
 type SearchFormProps = {
   handleSubmit: (event: React.FormEvent<HTMLElement>) => Promise<any>;

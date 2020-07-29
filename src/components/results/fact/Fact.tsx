@@ -30,7 +30,11 @@ const Fact: React.FC<FactProps> = (props) => {
         <div className="flex flex-col">
           <p>
             {categories.map((category, index) => (
-              <span className={index === 1 ? "ml-2" : ""} key={category}>
+              <span
+                data-cy="category"
+                className={index === 1 ? "ml-2" : ""}
+                key={category}
+              >
                 <Chip>{category}</Chip>
               </span>
             ))}
