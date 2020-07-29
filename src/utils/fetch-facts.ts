@@ -8,7 +8,7 @@ export const fetchFacts = async (query: string, category: string) => {
       factsResults = await factsService.fetchRandomWithText(query);
       return factsResults;
 
-    case query && category !== "all":
+    case (query && category !== "all") || (!query && category !== "all"):
       factsResults = await factsService.fetchRandomInCategory(category);
       return [factsResults];
 

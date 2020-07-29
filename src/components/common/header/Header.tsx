@@ -21,6 +21,7 @@ const Header = () => {
         className="bg-brand-900 cursor-pointer"
         defaultValue={i18n.language}
         onChange={handleChange}
+        name="lang"
       >
         <option value="en-US">{t("languages.english")}</option>
         <option value="fr">{t("languages.french")}</option>

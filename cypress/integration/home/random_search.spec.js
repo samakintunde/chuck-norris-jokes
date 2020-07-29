@@ -8,7 +8,7 @@ context("Home", () => {
       cy.get("[data-cy='search-actions'] a:nth-of-type(2)").click();
       cy.url().should("include", "/search");
 
-      cy.get("[data-cy='facts-title']").should("contain.text", "facts");
+      cy.get("[data-cy='facts-title']").should("contain.text", "fact");
       cy.get("[data-cy='facts']")
         .children()
         .should("have.length", 1);
