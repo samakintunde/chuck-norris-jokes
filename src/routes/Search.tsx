@@ -30,12 +30,6 @@ const Search = () => {
     return setResults(factsResults);
   };
 
-  const debouncedFetchRandom = debounce(async function() {
-    const fact = await fetchFacts("", "all");
-    setSearched(true);
-    setResults(fact);
-  }, 300);
-
   useEffect(() => {
     const getCategories = async () => {
       const factsCategories = await factsService.fetchCategories();
@@ -55,10 +49,15 @@ const Search = () => {
       });
     }
 
+    const debouncedFetchRandom = debounce(async function() {
+      const fact = await fetchFacts("", "all");
+      setSearched(true);
+      setResults(fact);
+    }, 300);
     tinykeys(window, {
       "Shift+R": debouncedFetchRandom,
     });
-  }, [debouncedFetchRandom, location.state]);
+  }, [location.state]);
 
   const renderNullProducts = () => {
     if (searched && results.length < 0) {
