@@ -14,7 +14,7 @@ Uses pure state and react-router's `location.state` to pass state around.
 
 ### Run App
 
-Modify `CYPRESS_BASE_URL` to point to the url your app is running on.
+Modify `CYPRESS_BASE_URL` in .env to point to the url your app is running on.
 
 ```
   yarn start
@@ -23,5 +23,5 @@ Modify `CYPRESS_BASE_URL` to point to the url your app is running on.
 ### Testing the app
 
 ```
-  yarn cypress:open
+  yarn cypress:open:dev
 ```
