@@ -1,0 +1,239 @@
+{
+  "total": 26,
+  "result": [
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:19.104863",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "y-b7g8trr96pfmopdplf4g",
+      "updated_at": "2020-01-05 13:42:19.104863",
+      "url": "https://api.chucknorris.io/jokes/y-b7g8trr96pfmopdplf4g",
+      "value": "Chuck Norris doesn't use a computer because a computer does everything slower than Chuck Norris."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:19.897976",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "AN7_hBUjSW-Fnbn-28jaVQ",
+      "updated_at": "2020-01-05 13:42:19.897976",
+      "url": "https://api.chucknorris.io/jokes/AN7_hBUjSW-Fnbn-28jaVQ",
+      "value": "When Chuck Norris wants cookies, he crashes open a computer."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:20.841843",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "mHaLxKzVRjiBLgE1KhEZ_g",
+      "updated_at": "2020-01-05 13:42:20.841843",
+      "url": "https://api.chucknorris.io/jokes/mHaLxKzVRjiBLgE1KhEZ_g",
+      "value": "Chuck Norris can build a computer with Windows 7."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:21.179347",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "9oOcprOiRh6ucQj0Lr8dHw",
+      "updated_at": "2020-01-05 13:42:21.179347",
+      "url": "https://api.chucknorris.io/jokes/9oOcprOiRh6ucQj0Lr8dHw",
+      "value": "There is no 'ctrl' button on Chuck Norris's computer. Chuck Norris is always in control."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:21.179347",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "rK7dA5D7TZWxY8kpvFRHXQ",
+      "updated_at": "2020-01-05 13:42:21.179347",
+      "url": "https://api.chucknorris.io/jokes/rK7dA5D7TZWxY8kpvFRHXQ",
+      "value": "Chuck Norris can gag you with a horrendous stinch simply by typing the word \"fart\" on his computer keyboard."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:21.455187",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "ImGRzzshSbSsfV-q_k9z_A",
+      "updated_at": "2020-01-05 13:42:21.455187",
+      "url": "https://api.chucknorris.io/jokes/ImGRzzshSbSsfV-q_k9z_A",
+      "value": "Chuck Norris' computer boots up in under 4 seconds. The \"Welcome\" sound is the Walker: Texas Ranger theme song."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:21.795084",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "GMupjWhgSCWlGxhJmNHBww",
+      "updated_at": "2020-01-05 13:42:21.795084",
+      "url": "https://api.chucknorris.io/jokes/GMupjWhgSCWlGxhJmNHBww",
+      "value": "When Steve Jobs booted up his first computer, his background was a picture of Chuck Norris taking a bite out of an apple."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:22.701402",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "_x1zyhYNRsOW9fNKSyD7FA",
+      "updated_at": "2020-01-05 13:42:22.701402",
+      "url": "https://api.chucknorris.io/jokes/_x1zyhYNRsOW9fNKSyD7FA",
+      "value": "The F1 button on Chuck Norris' computer works."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:22.980058",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "p8M1o6MORbmhbYW-990d2w",
+      "updated_at": "2020-01-05 13:42:22.980058",
+      "url": "https://api.chucknorris.io/jokes/p8M1o6MORbmhbYW-990d2w",
+      "value": "Chuck Norris gives computers viruses"
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:22.980058",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "Fi7I2cQzTeiysPsfHKLCqg",
+      "updated_at": "2020-01-05 13:42:22.980058",
+      "url": "https://api.chucknorris.io/jokes/Fi7I2cQzTeiysPsfHKLCqg",
+      "value": "Chuck Norris once stumbled upon a website with random facts about himself. Although he was flattered, he sent an email to each person who submitted an untrue fact. Upon opening the email, a leather cowboy boot came through each computer screen and roundhouse kicked everyone within a 30 meter radius."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:23.240175",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "KowpxjBZSmSm58hlkkhk7A",
+      "updated_at": "2020-01-05 13:42:23.240175",
+      "url": "https://api.chucknorris.io/jokes/KowpxjBZSmSm58hlkkhk7A",
+      "value": "In every computer game, the final level is Chuck Norris. If you don't beat those before, he does."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:24.40636",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "RxXqiBlkQJK7-fPLvlxllg",
+      "updated_at": "2020-01-05 13:42:24.40636",
+      "url": "https://api.chucknorris.io/jokes/RxXqiBlkQJK7-fPLvlxllg",
+      "value": "Chuck Norris dosnt need a keyboard he tells the computer to write something and it does"
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:24.696555",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "mEX4q-ycTR2R1bZomiRs4A",
+      "updated_at": "2020-01-05 13:42:24.696555",
+      "url": "https://api.chucknorris.io/jokes/mEX4q-ycTR2R1bZomiRs4A",
+      "value": "Humans start counting from 1. Computers start counting from 0. Chuck Norris starts counting from negative infinity."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:25.352697",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "vK5gw8GVQAuHSiyPyri23g",
+      "updated_at": "2020-01-05 13:42:25.352697",
+      "url": "https://api.chucknorris.io/jokes/vK5gw8GVQAuHSiyPyri23g",
+      "value": "Chuck Norris is so strong, he can roundhouse a bubbled paladin and blow his computer up."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:25.905626",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "gFgcEnubTeO2muXDROgA0w",
+      "updated_at": "2020-01-05 13:42:25.905626",
+      "url": "https://api.chucknorris.io/jokes/gFgcEnubTeO2muXDROgA0w",
+      "value": "Apple Computer was formed in 1976 by Steve Jobs, Steve Wozniak and Chuck Norris. When Steve Jobs suggested they use an apple as their logo, Chuck Norris bit off a chunk of the apple Jobs was holding, including his index and middle fingers. Jobs has prosthetic fingers on his right hand."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:25.905626",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "lbPwoc98Qmu_ewhrZJ3CRg",
+      "updated_at": "2020-01-05 13:42:25.905626",
+      "url": "https://api.chucknorris.io/jokes/lbPwoc98Qmu_ewhrZJ3CRg",
+      "value": "Whenever Chuck Norris watches pornography, his computer gets an erection."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:26.991637",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "F6CxYDlJRv-iy83fa3wKUQ",
+      "updated_at": "2020-01-05 13:42:26.991637",
+      "url": "https://api.chucknorris.io/jokes/F6CxYDlJRv-iy83fa3wKUQ",
+      "value": "Chuck Norris is the only computer system that beats a Mac or a PC. Too bad all it does is round house kicks the user."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:26.991637",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "Ji4dajbjSMOQIOF_btqK-g",
+      "updated_at": "2020-01-05 13:42:26.991637",
+      "url": "https://api.chucknorris.io/jokes/Ji4dajbjSMOQIOF_btqK-g",
+      "value": "Chuck Norris drugged Bill Cosby. Cosby woke up nine hours later in front of his computer, where he realized he just told the net to meme him."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:28.143137",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "P9g3DgctQgyGaEftWsrw7A",
+      "updated_at": "2020-01-05 13:42:28.143137",
+      "url": "https://api.chucknorris.io/jokes/P9g3DgctQgyGaEftWsrw7A",
+      "value": "When Chuck Norris switches on his computer, it skips the bootup process and goes straight to the desktop."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:28.664997",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "D1JcDT75QvqaxlApjlZm5A",
+      "updated_at": "2020-01-05 13:42:28.664997",
+      "url": "https://api.chucknorris.io/jokes/D1JcDT75QvqaxlApjlZm5A",
+      "value": "Chuck Norris can roundhouse kick you over the internet. Even if your computer is turned off. Or you don't have one."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:29.296379",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "rsRvNosxQT2b-pc3wBKyMQ",
+      "updated_at": "2020-01-05 13:42:29.296379",
+      "url": "https://api.chucknorris.io/jokes/rsRvNosxQT2b-pc3wBKyMQ",
+      "value": "You can hack Chuck Norris' computer simply by pressing Alt, Ctrl, F13 on your computer keyboard."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:29.569033",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "m2WVDVEsRiOfipqFvY37fA",
+      "updated_at": "2020-01-05 13:42:29.569033",
+      "url": "https://api.chucknorris.io/jokes/m2WVDVEsRiOfipqFvY37fA",
+      "value": "Theres a computer virus named rndhsekck. If you open the virus, it roundhouse kicks you in the face..from Chuck Norris."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:29.569033",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "K6vBH_8qTNOG0RnJ8vhwtw",
+      "updated_at": "2020-01-05 13:42:29.569033",
+      "url": "https://api.chucknorris.io/jokes/K6vBH_8qTNOG0RnJ8vhwtw",
+      "value": "Chuck Norris regularly smashes open his computer to eat the cookies within."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:30.177068",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "r5MQa1NGTLG2vIgyENy1ZA",
+      "updated_at": "2020-01-05 13:42:30.177068",
+      "url": "https://api.chucknorris.io/jokes/r5MQa1NGTLG2vIgyENy1ZA",
+      "value": "my computer was running slow and wasn't working right. and ever since i changed the screen saver to a picture of Chuck Norris, its speed has increased and runs better than before. coincidence? I think not!"
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:30.177068",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "4X-AE3o6TDuSOlUqXQQ9pg",
+      "updated_at": "2020-01-05 13:42:30.177068",
+      "url": "https://api.chucknorris.io/jokes/4X-AE3o6TDuSOlUqXQQ9pg",
+      "value": "Chuck Norris can hack the u.s. national sucurity computer system using nothing but a piece of toilet paper and a M&M"
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:30.480041",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "JyOoOwUYSY22fo0NN3qGFQ",
+      "updated_at": "2020-01-05 13:42:30.480041",
+      "url": "https://api.chucknorris.io/jokes/JyOoOwUYSY22fo0NN3qGFQ",
+      "value": "a man once heard two guys talking about Chuck Norris.He went home and decided to look up who Chuck Norris is? He was suprised when it came to a blank screen, he tryed to click out of it untill a window popped up please wait. He waited a while a bar appeared saying now uploading Chuck Norris.He looked stuned when Chuck Norris crawled out of his computer to round house kick him in the face. this man now knows every fact about Chuck Norris."
+    }
+  ]
+}
