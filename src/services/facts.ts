@@ -1,23 +1,15 @@
-const JOKES_BASE_URL = "https://api.chucknorris.io";
+import { IFact } from "../components/results/fact/Fact";
 
-interface RandomJoke {
-  categories: [];
-  created_at: string;
-  icon_url: string;
-  id: string;
-  updated_at: string;
-  url: string;
-  value: string;
-}
+const JOKES_BASE_URL = "https://api.chucknorris.io";
 
 export const fetchRandom = async () => {
   try {
     const response = await fetch(`${JOKES_BASE_URL}/jokes/random`);
-    const data: RandomJoke = await response.json();
+    const data: IFact = await response.json();
 
     return data;
   } catch (error) {
-    return null;
+    throw new Error(error);
   }
 };
 
@@ -28,7 +20,7 @@ export const fetchCategories = async () => {
 
     return data;
   } catch (error) {
-    return [];
+    throw new Error(error);
   }
 };
 
@@ -37,11 +29,11 @@ export const fetchRandomInCategory = async (category: string) => {
     const response = await fetch(
       `${JOKES_BASE_URL}/jokes/random?category=${category}`
     );
-    const data: RandomJoke = await response.json();
+    const data: IFact = await response.json();
 
     return data;
   } catch (error) {
-    return null;
+    throw new Error(error);
   }
 };
 
@@ -50,21 +42,19 @@ export const fetchRandomWithText = async (query: string) => {
     const response = await fetch(
       `${JOKES_BASE_URL}/jokes/search?query=${query}`
     );
-    const data: RandomJoke = await response.json();
+    const { result }: { result: IFact[] } = await response.json();
 
-    if (!data.id) return null;
-
-    return data;
+    return result;
   } catch (error) {
-    return null;
+    throw new Error(error);
   }
 };
 
-const jokesService = {
+const factsService = {
   fetchRandom,
   fetchRandomWithText,
   fetchCategories,
   fetchRandomInCategory,
 };
 
-export default jokesService;
+export default factsService;

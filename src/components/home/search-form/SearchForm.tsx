@@ -1,10 +1,17 @@
 import React, { useState } from "react";
 import Button from "../../common/button";
 import { FiArrowRight } from "react-icons/fi";
-import jokesService from "../../../services";
+import factsService from "../../../services";
+import { useHistory } from "react-router-dom";
 
-const SearchForm: React.FC = (props) => {
+type SearchFormProps = {
+  handleSubmit: (event: React.FormEvent<HTMLElement>) => Promise<any>;
+};
+
+const SearchForm: React.FC<SearchFormProps> = (props) => {
   // PROPS
+  const { handleSubmit } = props;
+  // STATE
   const [valid, setValid] = useState(false);
   const [query, setQuery] = useState("");
   const [searching, setSearching] = useState(false);
@@ -18,25 +25,25 @@ const SearchForm: React.FC = (props) => {
     setValid(true);
   };
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!valid) return;
     setSearching(true);
 
-    const joke = await jokesService.fetchRandomWithText(query);
-
-    if (!joke) {
-      setSearching(false);
-      return setValid(true);
-    }
-
-    setSearching(false);
-    setValid(true);
-    setQuery("");
+    handleSubmit(event)
+      .then(() => {
+        setSearching(false);
+        setValid(true);
+      })
+      .catch(() => {
+        setValid(true);
+        setSearching(false);
+        setQuery("");
+      });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={onSubmit}>
       <div className="relative">
         <input
           name="query"
