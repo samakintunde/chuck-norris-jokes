@@ -1,1 +1,1 @@
-export { default } from "./jokes";
+export { default } from "./facts";
