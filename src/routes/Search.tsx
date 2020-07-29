@@ -4,7 +4,7 @@ import Facts from "../components/results/facts";
 import factsService from "../services";
 import { IFact } from "../components/results/fact/Fact";
 import { useLocation } from "react-router-dom";
-import { isObject } from "../utils";
+import { isObject, fetchFacts } from "../utils";
 
 const Search = () => {
   const location = useLocation();
@@ -13,8 +13,10 @@ const Search = () => {
     // @ts-ignore
     location.state?.results || []
   );
+  const [searched, setSearched] = useState(false);
 
   const handleSearchFormSubmit = async (event: React.FormEvent) => {
+    setSearched(true);
     // @ts-ignore
     const query = event.target["query"].value;
     // @ts-ignore
@@ -22,21 +24,8 @@ const Search = () => {
     // @ts-ignore
     event.target.reset();
 
-    // Query random with text
-    if (query && category !== "all") {
-      const factsResults = await factsService.fetchRandomWithText(query);
-      // @ts-ignore
-      return setResults(factsResults);
-      // Query random in category
-    } else if (category !== "all") {
-      const factsResult = await factsService.fetchRandomInCategory(category);
-      // @ts-ignore
-      return setResults([factsResult]);
-    } else {
-      const factsResult = await factsService.fetchRandom();
-      // @ts-ignore
-      return setResults([factsResult]);
-    }
+    const factsResults = await fetchFacts(query, category);
+    return setResults(factsResults);
   };
 
   useEffect(() => {
@@ -53,20 +42,35 @@ const Search = () => {
       location.state?.random
     ) {
       factsService.fetchRandom().then((fact) => {
+        setSearched(true);
         setResults([fact]);
       });
     }
   }, []);
 
+  const renderNullProducts = () => {
+    if (searched && results.length < 0) {
+      return <p className="text-2xl">No results found.</p>;
+    } else {
+      return <p className="text-2xl">Please, enter a search query</p>;
+    }
+  };
+
   return (
-    <div className="p-4">
+    <div>
       <NavSearchForm
         categories={categories}
         handleSubmit={handleSearchFormSubmit}
       />
-      <div className="pt-8">
-        <Facts facts={results} />
-      </div>
+      {searched && results.length > 0 ? (
+        <div className="pt-8">
+          <Facts facts={results} />
+        </div>
+      ) : (
+        <div className="text-center pt-8 my-12 text-brand-500">
+          {renderNullProducts()}
+        </div>
+      )}
     </div>
   );
 };

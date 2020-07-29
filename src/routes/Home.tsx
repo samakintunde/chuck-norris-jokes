@@ -22,14 +22,14 @@ const Home: React.FC = () => {
     // @ts-ignore
     setResults(factsResults);
 
-    return history.push("/results", {
+    return history.push("/search", {
       results: factsResults,
     });
   };
 
   return (
-    <main className="h-full flex items-center justify-center text-center p-4">
-      <div className="w-full md:w-4/5 lg:w-1/2 my-4">
+    <main className="h-full flex flex-col items-center justify-center text-center">
+      <div className="w-full">
         <div>
           <div className="mb-6">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
@@ -38,9 +38,12 @@ const Home: React.FC = () => {
           </div>
           <SearchForm handleSubmit={handleSearchFormSubmit} />
         </div>
-        <div className="py-10 flex justify-around items-center">
+        <div
+          className="py-10 flex flex-col md:flex-row justify-around items-center"
+          data-cy="search-actions"
+        >
           <LinkCard to="/search">Search by Category</LinkCard>
-          <p className="text-brand-300 text-xl">or</p>
+          <p className="text-brand-300 text-xl m-4">or</p>
           <LinkCard
             to={{
               pathname: "/search",
