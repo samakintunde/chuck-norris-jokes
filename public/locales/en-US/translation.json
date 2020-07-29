@@ -17,12 +17,13 @@
   },
   "search": {
     "headings": {
-      "result": "result",
-      "results": "results",
-      "fact": "fact",
-      "facts": "facts"
+      "result": "Result",
+      "result_plural": "Results",
+      "fact": "{{count}} fact",
+      "fact_plural": "{{count}} facts"
     },
     "categories": {
+      "all": "all",
       "animal": "animal",
       "career": "career",
       "celebrity": "celebrity",

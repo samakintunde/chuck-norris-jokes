@@ -1,25 +1,27 @@
 import React from "react";
 import Fact, { IFact } from "../fact/Fact";
+import { useTranslation } from "react-i18next";
 
 type FactsProps = {
   facts: IFact[];
 };
 
 const Facts: React.FC<FactsProps> = (props) => {
+  const { t } = useTranslation();
+
   return (
     <section>
       {props.facts.length > 0 && (
         <div className="flex justify-between pb-8">
           <p className="font-bold" data-cy="results-title">
-            {props.facts.length > 1 ? "Results" : "Result"}
+            {t("search.headings.result", { count: props.facts.length })}
           </p>
           <small data-cy="facts-title">
-            <span className="font-bold">{props.facts.length}</span>{" "}
-            {props.facts.length > 1 ? "facts" : "fact"}
+            {t("search.headings.fact", { count: props.facts.length })}
           </small>
         </div>
       )}
-      <ul data-cy="facts">
+      <ul data-cy="facts" dir="ltr">
         {props.facts.map((result, index) => (
           <li
             data-cy="fact"

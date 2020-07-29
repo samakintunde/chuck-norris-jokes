@@ -23,6 +23,7 @@
       "facts": "faits"
     },
     "categories": {
+      "all": "tout",
       "animal": "animal",
       "career": "carrière",
       "celebrity": "célébrité",
