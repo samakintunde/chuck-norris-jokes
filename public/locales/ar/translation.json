@@ -1,0 +1,45 @@
+{
+  "languages": {
+    "english": "الإنجليزية",
+    "french": "فرنسي",
+    "arabic": "عربى"
+  },
+  "title": "Chuck Norris مكتشف الحقائق",
+  "footer": {
+    "credits": "بناها"
+  },
+  "home": {
+    "actions": {
+      "by_category": "البحث حسب الفئة",
+      "feeling_lucky": "أشعر أنني محظوظ",
+      "or": "أو"
+    }
+  },
+  "search": {
+    "headings": {
+      "result": "نتيجة",
+      "results": "النتائج",
+      "fact": "حقيقة",
+      "facts": "حقائق"
+    },
+    "categories": {
+      "all": "الكل",
+      "animal": "حيوان",
+      "career": "مسار مهني مسار وظيفي",
+      "celebrity": "نجاح كبير",
+      "dev": "ديف",
+      "explicit": "صريح",
+      "fashion": "موضه",
+      "food": "طعام",
+      "history": "التاريخ",
+      "money": "مال",
+      "movie": "فيلم",
+      "music": "موسيقى",
+      "political": "سياسية",
+      "religion": "دين",
+      "science": "علم",
+      "sport": "رياضة",
+      "travel": "السفر"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "languages": {
+    "english": "Anglais",
+    "french": "Français",
+    "arabic": "Arabique"
+  },
+  "title": "Chuck Norris Recherche de faits",
+  "footer": {
+    "credits": "Construit par"
+  },
+  "home": {
+    "actions": {
+      "by_category": "Recherche par catégorie",
+      "feeling_lucky": "Je me sens chanceux",
+      "or": "ou"
+    }
+  },
+  "search": {
+    "headings": {
+      "result": "résultat",
+      "results": "résultats",
+      "fact": "fait",
+      "facts": "faits"
+    },
+    "categories": {
+      "all": "tout",
+      "animal": "animal",
+      "career": "carrière",
+      "celebrity": "célébrité",
+      "dev": "dev",
+      "explicit": "explicite",
+      "fashion": "mode",
+      "food": "aliments",
+      "history": "l'histoire",
+      "money": "argent",
+      "movie": "film",
+      "music": "la musique",
+      "political": "politique",
+      "religion": "religion",
+      "science": "science",
+      "sport": "sport",
+      "travel": "voyage"
+    }
+  }
+}

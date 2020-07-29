@@ -1,5 +1,6 @@
 import React from "react";
 import Chip from "../chip";
+import clsx from "clsx";
 
 export interface IFact {
   categories: string[];
@@ -16,13 +17,17 @@ type FactProps = {
 };
 
 const Fact: React.FC<FactProps> = (props) => {
-  const { categories, icon_url, url, value } = props.fact;
+  const { categories, icon_url, value } = props.fact;
+
+  const imageClassNames = clsx({
+    "h-16 w-16 mr-4": true,
+  });
 
   return (
     <article>
       <div className="flex">
         <img
-          className="h-16 w-16 mr-4"
+          className={imageClassNames}
           src={icon_url}
           alt="Chuck Norris Icon"
         />

@@ -1,11 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="text-center">
-      Built by{" "}
+      {t("footer.credits")}{" "}
       <a
-        className="hover:text-brand-300"
+        className="text-brand-100 hover:text-brand-300 transition-colors duration-300"
         href="https://github.com/samakintunde37"
       >
         Samakintunde
